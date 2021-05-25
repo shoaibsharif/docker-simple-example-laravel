@@ -1,0 +1,15 @@
+---
+application:
+  name: "docker-simple-example-laravel"
+  project: "sample-laravel"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "sample-test"
+  version: "8.0"
+routers:
+- name: "main-docker-simple-example-laravel"
+  routes:
+  - application_name: "docker-simple-example-laravel"
+    paths:
+    - "/*"
